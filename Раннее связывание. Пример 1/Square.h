@@ -1,7 +1,8 @@
 #pragma once
 #include "Figure.h"
-class Square
+class Square : public Figure
 {
-
+public:
+	void ShowArea() const;
 };
 
